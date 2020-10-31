@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, rgb(253, 4, 191),  rgba(253, 4, 253, 0.739));
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 2em;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    border-radius: 10px;
+    min-width: 50%;
+    min-height: 90vh;
+    padding-left: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+    color: rgb(253, 4, 191);
+    text-decoration: underline;
+    margin-top: 1em;
+}
+
+form{
+    margin-top: 2em;
+    padding: 1em 1em 0 0;
+}
+.divs{
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    margin: 0 0 1em 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+label{
+    margin-bottom: .5em;
+    font-weight: bold;
+    color: rgb(253, 4, 191);
+    letter-spacing: 2px;
+}
+input[type="text"]{
+    background-color: rgba(192, 189, 192, 0.52);
+    border: none;
+    border-radius: 3px;
+    color: rgb(253, 4, 191);
+    padding: 1em;
+    outline: none;
+    font-size: 1em;
+}
+
+input[type="password"]{
+    background-color: rgba(192, 189, 192, 0.52);
+    border: none;
+    border-radius: 3px;
+    color: rgb(253, 4, 191);
+    padding: 1em;
+    outline: none;
+    font-size: 1em;
+}
+
+
+
+.small{
+    font-size: 1em;
+    border: none;
+    margin-top: 2em;
+   
+}
+
+
+.error{
+    font-size: .7em;
+    border: none;
+    margin-top: 1em;
+}
+
+
+.is-invalid{
+    color: red;
+}
+
+.is-valid{
+    color: green;
+}
+.inputSubmit{
+    /* background-color: red; */
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.52);
+    border-radius: 3px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    outline: none;
+    font-size: 1.2em;
+    padding: 1em 0;
+    letter-spacing: 5px;
+}
+
+.inputSubmit:hover{
+    background-color: red;
+    transition: background .5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
